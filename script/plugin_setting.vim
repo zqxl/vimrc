@@ -124,7 +124,7 @@ nnoremap <leader>html :Vimwiki2HTML<CR>
 nnoremap <leader>htmla :VimwikiAll2HTML<CR>
 
 " ------------------------ about pathogen ---------------------------
-execute pathogen#infect()
+"execute pathogen#infect()
 
 
 " ------------------------ about vim-flake8 ---------------------------

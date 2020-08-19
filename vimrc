@@ -34,7 +34,7 @@ set tags=tags;
 :cs add /usr/include/cscope.out /usr/include
 
 "-------------------- vundle setting ----------------------
-source ~/.vim/script/vundle-setting.vim
+"source ~/.vim/script/vundle-setting.vim
 
 "打开文件类型检测
 set nocp				"compatilble is not set, equal to 'set nocompatible' 
