@@ -1,3 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/mnt/server/caodan/a10t/a10t/camlinux/app/newcdr/include/camera'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/etc/init.d'
+let g:netrw_dirhist_2='/work/myprojects/learningShellScript.sh'

@@ -45,10 +45,12 @@ autocmd BufWinEnter \[Buf\ List\] setl nonumber
 
 "--------------------  about win_manager  -------------------------------
 "winmanager is available only if "compatilble" is not set
+"let g:winManagerWindowLayout = "BufExplorer,FileExplorer|BufExplorer"
 let g:winManagerWindowLayout = "FileExplorer|BufExplorer"
 let g:bufExplorerMaxHeight=15
 let g:winManagerWidth = 25
 let g:defaultExplorer = 0 
+let Tlist_WinWidth=40
 nmap <C-W><C-F> :FirstExplorerWindow<cr>
 nmap <C-W><C-B> :BottomExplorerWindow<cr>
 nmap <leader>wm :WMToggle<cr> :TlistToggle<cr>
