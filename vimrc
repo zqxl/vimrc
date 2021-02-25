@@ -86,6 +86,7 @@ set fileencodings=ucs-bom,utf-8,cp936
 
 " 设置在第81列的位置显示红色垂直线条
 set colorcolumn=81
+highlight ColorColumn ctermbg=8
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related

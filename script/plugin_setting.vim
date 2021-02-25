@@ -54,6 +54,8 @@ let Tlist_WinWidth=40
 nmap <C-W><C-F> :FirstExplorerWindow<cr>
 nmap <C-W><C-B> :BottomExplorerWindow<cr>
 nmap <leader>wm :WMToggle<cr> :TlistToggle<cr>
+nmap <leader>nn :set nonumber<cr>
+nmap <leader>en :set number<cr>
 
 "--------------------  about YouCompleteMe  -------------------------------
 "让vim的补全菜单行为与一般IDE一致
